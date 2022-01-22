@@ -1,13 +1,20 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
 #include<iostream>
 
 using namespace std;
-
+ 
 void swap(int arr[], int i, int j){
     int temp = arr[i];
     arr[i] = arr[j];
     arr[j] = temp;
 }
-
 int partition(int arr[], int l, int r){
     int pivot = arr[r];
     int i = l - 1;
@@ -32,6 +39,6 @@ int main(){
     quicksort(arr, 0, 4);
     for(int i=0; i<5; i++){
         cout << arr[i]<<" ";
-    } cout << endl;
+    }cout << endl;
     return 0;
 }
