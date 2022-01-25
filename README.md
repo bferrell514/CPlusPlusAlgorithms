@@ -40,7 +40,6 @@ The **merge sort** begins by dividing the array to be sorted in half. Then he di
 Merge sorting is as fast as quick sorting, both in trade and comparison. The downside of merge sorting is that it requires more copying of data from temporary tables to the full table, which slows down the algorithm a bit.<br />
 
 **5. Quick Sort**
-
 **QuickSort** is a sorting technique which is based on the divide and conquer algorithms. **Quicksort** is an efficient sorting algorithm and belongs to the category of divide and conquer sorting algorithms. It is an unstable sorting algorithm, which means that if two values are the same in an array, the algorithm can still swap them.
 
 **How does Quick Sorting Work?**<br />
@@ -56,7 +55,7 @@ The basic idea of quick sorting is to specify an item in the list as the pivot p
 
 
 **7. Binary Search**<br />
-Binary Search is a Divide and Conquer search algorithm. It uses O(log n) time to find the location of an item in a search space where n is the size of the search space. <br />
+**Binary Search** is a Divide and Conquer search algorithm. It uses O(log n) time to find the location of an item in a search space where n is the size of the search space. <br />
 
 **Introduction to Binary Search**<br />
 **Binary search** works by halving the search space on each iteration after comparing the target value to the median value of the search space. To use a **binary search**, the search space must be ordered (sorted) in some way. Duplicate entries (those that compare as equal according to the compare function) cannot be distinguished, although they do not violate the **binary search** property.<br />
