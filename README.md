@@ -53,3 +53,23 @@ The basic idea of quick sorting is to specify an item in the list as the pivot p
 
 **Introduction to Selection Sort**<br />
 **Selection sort** has an O(n2) time complexity, which makes it inefficient on large arrays. It is known for its simplicity and has performance advantages over more complicated algorithms in certain situations, especially when auxiliary memory is limited. The algorithm divides the input array into two parts: the sublist of items already sorted, which is built from left to right at the start (left) of the array, and the subarray of items remaining to be sorted which occupy the rest of the array. Initially, the sorted subarray is empty and the unsorted subarray is the entire input array. The algorithm proceeds by finding the smallest (or largest, depending on the sort order) element in the unsorted subarray, swapping it with the unsorted element on the more to the left (putting it in sorted order) and moving the boundaries of the sublist one item to the right. In the **Selection sort** algorithm, the inner loop selects the minimum element in the unsorted array and places the elements in ascending order.<br />
+
+
+**7. Binary Search**<br />
+Binary Search is a Divide and Conquer search algorithm. It uses O(log n) time to find the location of an item in a search space where n is the size of the search space. <br />
+
+**Introduction to Binary Search**<br />
+**Binary search** works by halving the search space on each iteration after comparing the target value to the median value of the search space. To use a **binary search**, the search space must be ordered (sorted) in some way. Duplicate entries (those that compare as equal according to the compare function) cannot be distinguished, although they do not violate the **binary search** property.<br />
+
+By convention, we use less than operator as a comparison function. If a < b, it will return true. If a is not less than b and b is not less than a, a and b are equal.<br />
+
+
+**8. Linear Search**<br />
+A **linear search** is one of the most basic and useful algorithms, it moves sequentially through a data structure to find the corresponding value this is the reason why it is also known as the sequential search algorithm.<br />
+
+**How Linear Search Algorithm Works?**<br />
+The **linear search** algorithm can be compared to looking for a book in a stack of books, you go through them all until you find the one that you want. Let’s understand it with a more simple example explained below. Think of the **linear search** algorithm as a way to find your way through a contact list on your smartphone. A linear search begins at the beginning by reading each name until you find what you are looking for. In n terms of complexity, this is an O(n) search – the time it takes to search the list increases as the contact list increases.<br />
+
+Let’s understand the searching approach of linear search algorithm step by step:<br />
+
+It starts the search from the leftmost element of the array and compares one by one the element we are looking for with each element in the array. If it finds a match between the searched element and the elements in the array, it returns the index of that element. If there is no match between the searched element and the elements of the array, then it returns -1.
